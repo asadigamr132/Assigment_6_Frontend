@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 11 - Image Gallery</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../js/task11.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Part 5. Mini Project</h1>
+        <p>Task 11 — Interactive Image Gallery</p>
+    </header>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="task0-1.html">Part 1</a>
+        <a href="task2-4.html">Part 2</a>
+        <a href="task5-7.html">Part 3</a>
+        <a href="task8-10.html">Part 4</a>
+        <a href="task11.html">Mini Project</a>
+    </nav>
+    <main>
+        <section class="card">
+            <h2>Image Gallery</h2>
+            <p>Click a thumbnail to show a larger image. The thumbnails also use fade effects.</p>
+            <div class="gallery">
+                <img class="thumbnail" src="https://picsum.photos/id/1015/300/200" alt="Mountain">
+                <img class="thumbnail" src="https://picsum.photos/id/1016/300/200" alt="Forest">
+                <img class="thumbnail" src="https://picsum.photos/id/1018/300/200" alt="Nature">
+                <img class="thumbnail" src="https://picsum.photos/id/1020/300/200" alt="Landscape">
+            </div>
+            <img id="largeImage" src="" alt="Selected large image">
+            <button id="hideGalleryImage">Hide Large Image</button>
+        </section>
+    </main>
+    <footer>Assignment #6 — jQuery</footer>
+</body>
+</html>
