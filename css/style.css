@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f4f8;
+    color: #222;
+}
+
+header {
+    background: #263b58;
+    color: white;
+    text-align: center;
+    padding: 28px 15px;
+}
+
+header h1 {
+    margin: 0 0 8px;
+}
+
+nav {
+    background: #17283d;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 9px 13px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: #496887;
+}
+
+main {
+    width: 90%;
+    max-width: 950px;
+    margin: 25px auto;
+}
+
+.card {
+    background: white;
+    padding: 22px;
+    margin-bottom: 20px;
+    border-radius: 9px;
+    box-shadow: 0 2px 8px #00000012;
+}
+
+h2 {
+    color: #263b58;
+    margin-top: 0;
+}
+
+button {
+    background: #315d8a;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px 4px 5px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #203f61;
+}
+
+input {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 7px 0 15px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+.demo-image {
+    width: 260px;
+    max-width: 100%;
+    display: block;
+    margin: 15px 0;
+    border-radius: 7px;
+}
+
+.panel {
+    background: #e4edf6;
+    padding: 18px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.box {
+    width: 70px;
+    height: 70px;
+    background: #e08a45;
+    position: relative;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+.output {
+    background: #eef3f8;
+    padding: 12px;
+    min-height: 35px;
+    border-radius: 5px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.gallery img {
+    width: 150px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.gallery img:hover {
+    opacity: 1;
+}
+
+#largeImage {
+    width: 100%;
+    max-width: 500px;
+    display: none;
+    margin-top: 18px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        width: 100%;
+        text-align: center;
+    }
+}
